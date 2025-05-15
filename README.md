@@ -1,18 +1,43 @@
-# Loan_Approval_Prediction💼 Loan Approval Prediction using Machine Learning 🧠
+#Loan Approval Prediction using Machine Learning 🧠
 This project focuses on building a predictive machine learning model to determine whether a loan application should be approved or not — a key challenge in the financial industry. Using real-world-like data, I explored the end-to-end ML pipeline from data preprocessing to model deployment.
 
-🚀 Highlights:
+📌 Project Steps
+Data Import & Understanding:
+Loaded the dataset from Kaggle and explored its structure and key features.
 
-Implemented and compared Logistic Regression, Random Forest, and XGBoost models.
+Exploratory Data Analysis (EDA):
+Identified missing values, outliers, and feature relationships through visualizations.
 
-Achieved 90% accuracy with Random Forest, outperforming other models.
+Data Preprocessing:
 
-Evaluated models using precision, recall, and F1-score for both approved and rejected loan cases.
+Handled missing values
 
-Conducted feature engineering, handling missing values, and visualized key trends to boost model performance.
+Performed feature scaling
 
-Focused on building a balanced and interpretable model to support real-world business decisions in loan risk assessment.
+Applied oversampling techniques (to balance class distribution)
 
-📊 Tools & Libraries:
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
+Model Building & Evaluation:
+Applied the following models:
 
+Logistic Regression
+
+Random Forest
+
+XGBoost
+
+✔️ Best Accuracy Achieved: 90% (Random Forest)
+📈 Evaluated using precision, recall, f1-score, and confusion matrix.
+
+🛠️ Tools & Technologies
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+XGBoost
+
+📚 Outcome
+Successfully built and evaluated models for loan approval prediction, with strong performance using ensemble methods. This project demonstrates practical skills in data preprocessing, model selection, and real-world evaluation.
